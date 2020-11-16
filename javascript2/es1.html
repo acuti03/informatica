@@ -1,0 +1,29 @@
+<!--realizzare una pagina html con due input text con id numUno e
+numDue cliccando il bottone con il label "esegui somma", nella
+console visualizzo i due valori inseriti e la reltiva somma-->
+
+<ì<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACUTI</title>
+    </head>
+    <body>
+        N1 : <input type="text" id="inputN1"><br />
+        N2 : <input type="text" id="inputN2"><br />
+        <input type="button" value="esegui somma" onclick="f()">
+        <script>
+            function f(){
+                let a;
+                let b;
+
+                a = document.getElementById(inputN1).value;
+                b = document.getElementById(inputN2).value;
+
+                let r = parseInt(a) + parseInt(b);
+
+                copmsole.log("Somma: "+r);
+            }
+           
+        </script>
+    </body>
+</html>

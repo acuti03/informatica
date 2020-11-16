@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACUTI</title>
+    </head>
+    <body>
+        stringa: <input type="text" id="inputStr">
+        <input type="button" value="visualizza" onclick="f()">
+        <script>
+            function f(){
+                console.log("Entro nella funzione...\n");
+                let s;
+                s = document.getElementById("inputStr").value;
+                console.log("parola: "+s+" è stata inserita dall utente.");
+            }
+        </script>
+    </body>
+</html>
